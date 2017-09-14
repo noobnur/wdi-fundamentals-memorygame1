@@ -30,7 +30,7 @@ var flipCard = function () {
 console.log("User flipped " + cards[cardId].rank);
 console.log("User flipped " + cards[cardId].cardImage);
 console.log("User flipped " + cards[cardId].suit);
-if (cardsInPlay.length === 2) {}
+if (cardsInPlay.length === 2) {
 checkForMatch();
 }
 };
