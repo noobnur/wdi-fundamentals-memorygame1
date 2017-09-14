@@ -30,12 +30,13 @@ var flipCard = function () {
 console.log("User flipped " + cards[cardId].rank);
 console.log("User flipped " + cards[cardId].cardImage);
 console.log("User flipped " + cards[cardId].suit);
+if (cardsInPlay.length === 2) {}
 checkForMatch();
+}
 };
 
 var checkForMatch = function() {
-	var totalCards = cardsInPlay.length;
-		if (totalCards === 2 && cardsInPlay[0] === cardsInPlay[1]) {
+		if (cardsInPlay[0] === cardsInPlay[1]) {
 	 alert("You found a match!");
 }
 	else {
